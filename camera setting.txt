@@ -1,0 +1,7 @@
+Run Command Prompt as administrator
+run commands - 
+Dism /Online /Cleanup-Image/CheckHealth
+Dism /Online /Cleanup-Image /ScanHealth
+Dism /Online /Cleanup-Image /RestoreHealth
+sfc /SCANNOW
+Restart Your PC
